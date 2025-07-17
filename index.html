@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Servicios de Handyman - Comunidades Cerradas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Tu Handyman de Confianza</h1>
+      <nav>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Soluciones rápidas y confiables para tu hogar en comunidad cerrada</h2>
+      <a href="#contacto" class="btn">Solicitar Servicio</a>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Electricidad</h3>
+          <p>Instalaciones, reparaciones y mantenimiento eléctrico.</p>
+        </div>
+        <div class="card">
+          <h3>Plomería</h3>
+          <p>Fugas, instalaciones sanitarias y desagües.</p>
+        </div>
+        <div class="card">
+          <h3>Pintura</h3>
+          <p>Interiores y exteriores para renovar tu hogar.</p>
+        </div>
+        <div class="card">
+          <h3>Jardinería</h3>
+          <p>Corte de césped, poda y mantenimiento general.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="about">
+    <div class="container">
+      <h2>¿Quiénes Somos?</h2>
+      <p>Somos un equipo profesional de mantenimiento con más de 10 años de experiencia, enfocados en comunidades cerradas donde la confianza y eficiencia son clave.</p>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form id="formulario">
+        <input type="text" name="nombre" placeholder="Nombre completo" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="mensaje-enviado" class="mensaje oculto">¡Mensaje enviado correctamente!</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Handyman Comunidades Cerradas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
